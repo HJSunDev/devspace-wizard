@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		// 指定模块解析策略为 Node16
+		"module": "Node16",
+		// 指定 ECMAScript 目标版本为 ES2022
+		"target": "ES2022",
+		// 指定编译时包含的库
+		"lib": [
+			"ES2022"
+		],
+		// 生成对应的 source map 文件
+		"sourceMap": true,
+		// 指定根目录为 src
+		"rootDir": "src",
+		// 启用所有严格的类型检查选项
+		"strict": true   /* 启用所有严格的类型检查选项 */
+		/* 额外的检查 */
+		// "noImplicitReturns": true, /* 当并非所有代码路径都有返回值时报告错误 */
+		// "noFallthroughCasesInSwitch": true, /* 在 switch 语句中报告贯穿的情况 */
+		// "noUnusedParameters": true,  /* 报告未使用的参数 */
+	}
+}
