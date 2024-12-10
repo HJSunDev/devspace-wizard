@@ -88,6 +88,7 @@ export function activate(context: vscode.ExtensionContext) {
     try {
         // 创建状态栏管理器
         const statusBarManager = new StatusBarManager();
+        // 立即显示状态栏项
         statusBarManager.show();
 
         // 创建命令处理器
