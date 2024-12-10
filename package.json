@@ -1,9 +1,9 @@
 {
   "name": "devspace-wizard",
   "displayName": "DevSpace Wizard",
-  "description": "",
+  "description": "专注于提供快速打开项目根目录 CMD 窗口的功能。兼容 Cursor 编辑器。",
   "publisher": "DevSpaceWizard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.70.0"
   },
